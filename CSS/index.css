@@ -1,0 +1,249 @@
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { ... } */
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* // Extra large devices (large desktops, 1200px and up)// */
+/* @media (min-width: 1200px) {... } */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth; 
+}
+/* <!-- Nav CSS --> */
+#topoftheworld {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #1B3B43;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+.navbar {
+    display: flex;
+    flex-wrap: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar > .container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+#topoftheworld .navbar-brand {
+    color: white;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: .5rem;
+}
+.navbar-brand {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    margin-right: .25rem;
+    font-size: 1.5rem;
+}
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+}
+#topoftheworld {
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: "Gill Sans", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.navbar-dark {
+    color: white;
+    border-color: white;
+}
+button {
+    cursor: pointer;
+}
+/* body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1;
+    color: #1B3B43;
+} */
+header.masthead {
+    display: block;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-image: url(../images/Getting\ Started\ jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.headermast .masthead-subhead {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    line-height: 1rem;
+    font-style: italic;
+    font-family: "Gill Sans", Arial, Helvetica, sans-serif;
+}
+.headermast .masthead-header {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+    font-family: "Franklin Gothic Medium", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+.btn-xl {
+    padding: 1rem 2rem;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 650;
+}
+.btn-primary {
+    color: white;
+    background-color: #1B3B43;
+    border-color: #1B3B43;
+    border-width: .25rem;
+}
+.btn-floating {
+    display: inline-block;
+    line-height: 1rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.fa-github .fa-linkedin-in .fa-facebook-f {
+    height: 2rem;
+    width: 2rem;
+}
+.card-img-top .img-wrapper {
+    position: relative;
+    padding-bottom: 100%;
+    overflow: hidden;
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+/* .img-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
+hr {
+    color: #1B3B43;
+    stroke: 1rem;
+}
+h5 {
+    font-family: "Franklin Gothic Medium", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1B3B43;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+p {
+    font-family: "Gill Sans", Arial, Helvetica, sans-serif;
+    color: #3A7673;
+    font-display: italic;
+    font-size: 15px;
+}
+/* Footer Styles */
+.footer {
+    background-color: #709189;
+    position: relative;
+    bottom: 0;  
+    width: 100vw; 
+    left: 50%; 
+    right: 50%; 
+    margin-left: -50vw; 
+    margin-right: -50vw; 
+} 
+.wrapper {
+    height: 140px;
+    color: white;
+}
+.logo2 {
+    height: 90px; 
+    padding: 5px;
+    width: 150px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: center;
+    margin-left: 40px;
+    position: absolute; 
+    left: 0px; 
+    bottom: 40px; 
+}
+.footerTitle {
+    font-size: 27px; 
+    padding-left: 40px;
+    word-spacing: 10px;
+    position: absolute; 
+    left: 10px; 
+    bottom: 0px; 
+    font-family: "PT Sans"; 
+}
+.socialMedia {
+    height: 65px; 
+    padding: 5px;
+    width: 65px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    text-align: center;
+    margin-left: 40px;
+    display: block; 
+}
+.GitHub { 
+    position: absolute; 
+    bottom: 40px; 
+    right: 150px; 
+}
+.LinkedIn {
+    position: absolute; 
+    bottom: 40px; 
+    right: 80px; 
+}
+.FaceBook {
+    position: absolute; 
+    bottom: 40px; 
+    right: 10px; 
+}
+#copyright {
+    position: absolute; 
+    bottom: 10px; 
+    right: 5px; 
+    font-size: 12px;
+}
+.links {
+    color: white;
+    font-size: 18px;
+}
+.textLinks {
+    padding: 0px 0px; 
+    position: absolute; 
+    left: 200px; 
+    bottom: 50px; 
+}
+.fa-envelope {
+    margin: 5px;
+}
+.fa-phone-alt {
+    margin: 5px;
+}
